@@ -1,20 +1,22 @@
 {
-    "name": "Test-Package",
-    "version": "0.0.1",
-    "dependencies":{
-        "express" : "4.13.3",
-        "jade": "1.11.0",
-        "mongoose":"4.4.12",
-        "mime-types": "~2.1.6",
-        "negotiator": "0.5.3",
-        "grunt": "0.4.5",
-        "grunt-cli":"",
-        "grunt-contrib-watch":"",
-        "grunt-contrib-uglify":"",
-        "grunt-contrib-clean":"1.0.0",
-        "grunt-contrib-jshint":"1.0.0",
-        "grunt-contrib-copy":"1.0.0"
-    },
-    "description": "My firt test package",
-    "license" : "MIT"
+  "name": "Test-Package",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "4.13.3",
+    "jade": "1.11.0",
+    "mongoose": "4.4.12",
+    "mime-types": "~2.1.6",
+    "negotiator": "0.5.3",
+    "grunt": "0.4.5",
+    "grunt-cli": "",
+    "grunt-contrib-watch": "",
+    "grunt-contrib-uglify": "",
+    "grunt-contrib-clean": "1.0.0",
+    "grunt-contrib-jshint": "1.0.0",
+    "grunt-contrib-copy": "1.0.0",
+    "grunt-contrib-imagemin": "1.0.0",
+    "grunt-contrib-cssmin": "0.14.0"
+  },
+  "description": "My firt test package",
+  "license": "MIT"
 }

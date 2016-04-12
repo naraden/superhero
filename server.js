@@ -63,21 +63,7 @@ function handleUsers(req, res, next, callBack) {
 
     if (callBack) callBack(users);
 
-    var _user = {};
 
-    if (!req.params.id) {
-      _user = users;
-    } else {
-      for (var k in users) {
-        if (users[k].id == req.params.id) {
-          _user = users[k];
-        }
-      }
-
-    }
-
-    //        console.log(data);
-    res.send(JSON.stringify(_user));
   });
 }
 
